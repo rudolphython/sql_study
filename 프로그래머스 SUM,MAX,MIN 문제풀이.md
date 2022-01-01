@@ -1,0 +1,34 @@
+## 프로그래머스 SUM,MAX, MIN 문제 풀이
+
+
+
+1. **최댓값 구하기**
+
+```sql
+SELECT MAX(DATETIME) FROM ANIMAL_INS ORDER BY DATETIME DESC LIMIT 1;
+```
+
+
+
+2. **최솟값 구하기**
+
+```sql
+SELECT MIN(DATETIME) FROM ANIMAL_INS ORDER BY DATETIME DESC LIMIT 1;
+```
+
+
+
+3. **동물의 수 구하기**
+
+```sql
+SELECT COUNT(*) FROM ANIMAL_INS
+```
+
+
+
+4. **중복 제거하기**
+
+```sql
+SELECT COUNT(DISTINCT NAME) FROM ANIMAL_INS WHERE NAME != 'NULL'
+```
+
